@@ -1,0 +1,99 @@
+    1  ls
+    2  cd /root
+    3  ls
+    4  cd server_lesson
+    5  ls
+    6  65;18;19M65;18;19M64;18;19M
+    7  vi README.md
+    8  vi README.md
+    9  vi README.md
+   10  ls
+   11  cd /root
+   12  ls
+   13  rm server_lesson/README.md 
+   14  cd server_lesson
+   15  ls
+   16  cd -
+   17  touch server_lesson/README.md
+   18  cd server_lesson
+   19  ls
+   20  git status
+   21  git add .
+   22  git status
+   23  git rm .README.md.swp
+   24  git rm README.md.swp
+   25  git rm --cached .README.md.swp
+   26  git rm -f .README.md.swp
+   27  git reset HEAD .README.md.swp 
+   28  git reset HEAD server_lesson
+   29  git reset .
+   30  git status
+   31  ls
+   32  cd linux_practice1
+   33  ls
+   34  cd -
+   35  cd /root
+   36  ls
+   37  cd server_lesson/
+   38  ls
+   39  del /ah *.swp
+   40  rm /ah *.swp
+   41  rm .README.md.swp
+   42  git status
+   43  vi README.md 
+   44  cat README.md 
+   45  git status
+   46  git add .
+   47  git status
+   48  git commit -m 'Practice1'
+   49  git push origin master
+   50  git push origin main
+   51  git remote add origin git@github.com:tomoda806/server_lesson.git
+   52  git remote -v
+   53  git push origin master
+   54  git remote add origin https://github.com/tomoda806/server_lesson.git
+   55  git remote set-url origin https://github.com/tomoda806/server_lesson.git
+   56  git remote -v
+   57  git push origin master
+   58  git push origin main
+   59  git push origin master
+   60  mkdir -p linux_practice2/documents
+   61  ls
+   62  cd linux_practice2
+   63  ls
+   64  touch documents/gizumo{01..50}.md
+   65  cd documents/
+   66  ls
+   67  cd -
+   68  cd /root
+   69  cd server_lesson/
+   70  ls
+   71  mkdir -p linux_practice2/trash
+   72  mv documents/gizumo{20..40}.md trash
+   73  cd linux_practice2
+   74  ls
+   75  mv documents/gizumo{20..40}.md trash
+   76  ls trash
+   77  ls documents/
+   78  cd -
+   79  touch linux_practice2/.gitignore
+   80  ls linux_practice2
+   81  ls
+   82  cd linux_practice2
+   83  ls
+   84  ls documents/
+   85  ls trash/
+   86  cd -
+   87  cd linux_practice2
+   88  touch .gitignore
+   89  ls
+   90  ls -a
+   91  cd -
+   92  rm linux_practice2/.gitignore
+   93  ls -a linux_practice2
+   94  rm linux_practice2/.gitignore
+   95  touch linux_practice2/.gitignore
+   96  ls -a linux_practice2
+   97  vi .gitignore
+   98  cd linux_practice2
+   99  history 300 > exec_command.log
